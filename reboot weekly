@@ -1,0 +1,4 @@
+/system scheduler add name="Reboot Router Weekley" on-event="/system reboot" start-date=jan/01/1970 start-time=00:05:00 interval=7d comment="reboot Abidi" disabled=no
+/system clock set time-zone-name="Asia/Tehran"
+/system ntp client set primary-ntp=46.36.96.1 secondary-ntp=46.36.96.30 enabled=yes
+/
